@@ -11,7 +11,7 @@ namespace Project30 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace Project30 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -51,14 +51,14 @@ namespace Project30 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -79,7 +79,7 @@ namespace Project30 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(152, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Введите сторону основания:";
+			this->label1->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ®Г°Г®Г­Гі Г®Г±Г­Г®ГўГ Г­ГЁГї:";
 			// 
 			// label2
 			// 
@@ -88,7 +88,7 @@ namespace Project30 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(91, 13);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Введите высоту:";
+			this->label2->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ ГўГ»Г±Г®ГІГі:";
 			// 
 			// HeightLabel
 			// 
@@ -114,7 +114,7 @@ namespace Project30 {
 			this->CalculateButton->Name = L"CalculateButton";
 			this->CalculateButton->Size = System::Drawing::Size(95, 35);
 			this->CalculateButton->TabIndex = 4;
-			this->CalculateButton->Text = L"Рассчитать";
+			this->CalculateButton->Text = L"ГђГ Г±Г±Г·ГЁГІГ ГІГј";
 			this->CalculateButton->UseVisualStyleBackColor = true;
 			this->CalculateButton->Click += gcnew System::EventHandler(this, &MyForm::CalculateButton_Click);
 			// 
@@ -125,7 +125,7 @@ namespace Project30 {
 			this->checkBox1->Name = L"checkBox1";
 			this->checkBox1->Size = System::Drawing::Size(269, 17);
 			this->checkBox1->TabIndex = 5;
-			this->checkBox1->Text = L"Объем правильной четырехугольной пирамиды";
+			this->checkBox1->Text = L"ГЋГЎГєГҐГ¬ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г© Г·ГҐГІГ»Г°ГҐГµГіГЈГ®Г«ГјГ­Г®Г© ГЇГЁГ°Г Г¬ГЁГ¤Г»";
 			this->checkBox1->UseVisualStyleBackColor = true;
 			this->checkBox1->Click += gcnew System::EventHandler(this, &MyForm::checkBox1_Click);
 			// 
@@ -136,7 +136,7 @@ namespace Project30 {
 			this->checkBox2->Name = L"checkBox2";
 			this->checkBox2->Size = System::Drawing::Size(134, 17);
 			this->checkBox2->TabIndex = 6;
-			this->checkBox2->Text = L"Площадь поверхнсти";
+			this->checkBox2->Text = L"ГЏГ«Г®Г№Г Г¤Гј ГЇГ®ГўГҐГ°ГµГ­Г±ГІГЁ";
 			this->checkBox2->UseVisualStyleBackColor = true;
 			this->checkBox2->Click += gcnew System::EventHandler(this, &MyForm::checkBox2_Click);
 			// 
@@ -147,7 +147,7 @@ namespace Project30 {
 			this->Result->Name = L"Result";
 			this->Result->Size = System::Drawing::Size(67, 13);
 			this->Result->TabIndex = 7;
-			this->Result->Text = L"Результаты";
+			this->Result->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІГ»";
 			// 
 			// MyForm
 			// 
@@ -179,14 +179,14 @@ namespace Project30 {
 		Volume = (Height * SideBase * SideBase) / 3;
 		Square = (SideBase * SideBase) + (2 * SideBase * Height);
 		System::String^ message = "";
-		//Result->Text = "Объем правильной четерхугольной пирамид:" + Volume.ToString("c");
+		//Result->Text = "ГЋГЎГєГҐГ¬ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г© Г·ГҐГІГҐГ°ГµГіГЈГ®Г«ГјГ­Г®Г© ГЇГЁГ°Г Г¬ГЁГ¤:" + Volume.ToString("c");
 		if (checkBox1->Checked)
 		{
-			message += "Объем правильной четерхугольной пирамид : " + Volume.ToString("n");
+			message += "ГЋГЎГєГҐГ¬ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г© Г·ГҐГІГҐГ°ГµГіГЈГ®Г«ГјГ­Г®Г© ГЇГЁГ°Г Г¬ГЁГ¤ : " + Volume.ToString("n");
 		}
 		if (checkBox2->Checked)
 		{
-			message += "\nПлощадь четырехугольной пирамиды :" + Square.ToString("n");
+			message += "\nГЏГ«Г®Г№Г Г¤Гј Г·ГҐГІГ»Г°ГҐГµГіГЈГ®Г«ГјГ­Г®Г© ГЇГЁГ°Г Г¬ГЁГ¤Г» :" + Square.ToString("n");
 		}
 		Result->Text = message;
 	}
@@ -207,7 +207,7 @@ namespace Project30 {
 		{
 			CalculateButton->Enabled = true;
 		}
-		Result->Text = "Введите сторону основания";
+		Result->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ®Г°Г®Г­Гі Г®Г±Г­Г®ГўГ Г­ГЁГї";
 	}
 	private: System::Void SideBaseLabel_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 		if (HeightLabel->Text->Length == 0)
@@ -226,7 +226,7 @@ namespace Project30 {
 		{
 			CalculateButton->Enabled = true;
 		}
-		Result->Text = "Введите высоту";
+		Result->Text = "Р’РІРµРґРёС‚Рµ СЃС‚РѕСЂРѕРЅСѓ РѕСЃРЅРѕРІР°РЅРёСЏ Рё РІС‹Р±РµСЂРёС‚Рµ РєР°РєРёРµ РґРµР№СЃС‚РІРёСЏ РІС‹РїРѕР»РЅРёС‚СЊ";
 	}
 	private: System::Void checkBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 		Result->Text = "";
