@@ -207,7 +207,7 @@ namespace Project30 {
 		{
 			CalculateButton->Enabled = true;
 		}
-		Result->Text = "Ââåäèòå ñòîðîíó îñíîâàíèÿ";
+		Result->Text = "Ââåäèòå ñòîðîíó îñíîâàíèÿ выберите какие действия выполнить";
 	}
 	private: System::Void SideBaseLabel_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 		if (HeightLabel->Text->Length == 0)
